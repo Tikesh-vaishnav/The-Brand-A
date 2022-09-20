@@ -86,7 +86,6 @@ function Body(){
       <td>{Detail['spend']}</td>
       <td>{Detail.sales}</td>
       <td><a href="#" onClick={toggle}>edit</a></td>
-      <td> <link rel="stylesheet" href="#" onClick={toggle}/> </td>
     </tr>
     ))}
 
