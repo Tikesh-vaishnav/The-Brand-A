@@ -1,0 +1,156 @@
+
+/* .left-box{
+    float: left;
+    background-color: rgb(238, 229, 216);
+    width: 18%;
+    padding: 2px;
+    margin: 6px 0px 3px 3px ;
+    height: 100vh;
+} */
+
+.nav-txt{
+   font-weight: bold;
+   box-shadow: 0 3px 4px -2px rgba(0,0,0,.2);
+}
+
+.nav-btn{
+    margin: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #EBEBEB;
+}
+.filter{
+    padding: 20px;
+}
+
+.thead{
+    
+}
+
+.container-l#blur.active{
+    filter: blur(5px);
+}
+.container#blur1.active{
+    filter: blur(5px);
+}
+
+.status{
+    width: 120px;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+.productName{
+    max-width: 500px;
+    text-decoration: none;
+    color: black;
+}
+
+.pop{
+    width: 600px;
+    height: 325px;
+    background-color: #ebebebf8;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 1px 1px 1px 1px rgba(60, 58, 58, 0.216);
+}
+
+.pop#popup.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.sidebar{
+    width: 20%;
+    align-items: center;
+    border: rgb(146, 139, 139) solid 0.1px;
+    float: left;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 15px;
+    height: 550px;
+}
+
+
+.btn-1{
+    text-align: center;
+    color: black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+   
+   display: inline;
+    
+}
+
+li{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 40px; 
+    padding: 10px;
+   
+}
+li:hover{
+    background-color: #4793EC26;
+    font-weight: bold;
+    
+}
+
+.logo{
+    width: 149px;
+    height: 149px;
+    margin-bottom: 50px;
+    margin-TOP: 50PX;
+    border: solid;
+}
+
+.list{
+    text-align: center;
+    padding: 0;
+    margin-top: 0px;
+  
+}
+
+
+/* body.jsx css */
+
+.card1{
+    width: 465px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    height: 100px;
+    margin: 12px;
+    margin-top: 20px;
+    box-shadow: 0.5px 1px 5px 1px rgba(74, 73, 73, 0.382);
+    /* border: 1px solid #03030371; */
+    border-radius: 5px;
+}
+
+.container{
+    margin: 10px;
+   margin-left: 50px;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+}
+
+.stamps{
+    width: 116%;
+}
+
+.num{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+

@@ -1,0 +1,82 @@
+*{  
+    padding: 0;
+}
+
+.details{
+    width: 71%;
+    float: right;
+    border: rgb(146, 139, 139) solid 0.1px;
+    height: 550px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 4%;
+}
+
+.tittle{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.form-control{
+    padding: 8px;
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    background-color: #E7E7E7;
+}
+
+.btn-2{
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #09ae85;
+    color: #E7E7E7;
+    border: 0px;
+}
+
+.save{
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    padding-top:120px ;
+    margin-top: 20px;
+    color: #E7E7E7;
+}
+
+
+
+/* Wallet  */
+.balance{
+    width: 320px;
+    height: 158px;
+    background-color: #E9E9E9;
+    padding: 20px;   
+}
+
+.wbalance{
+    font-size: 20px;
+}
+
+.sbalance{
+    font-size: 50px;
+    padding: 16px;
+    color: #4793EC;
+}
+
+.dwallet{
+
+    background-color: #E9E9E9;
+    width: 348px;
+    min-height: 158px;
+    margin-left: 200px;
+}
+
+.wsection{
+    text-align: center;
+    align-items: center;
+}

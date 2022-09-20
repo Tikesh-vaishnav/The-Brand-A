@@ -1,0 +1,12 @@
+
+[
+    {
+        "sales": 999,
+        "spend": 250,
+        "orders": 1,
+        "products_with_offer": 2,
+        "products_without_offer": 0,
+        "acos": 25.02,
+        "brand_name": "Puma"
+      }
+]
