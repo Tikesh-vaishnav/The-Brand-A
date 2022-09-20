@@ -5,6 +5,7 @@ import data from '../../temp_data.json';
 // import data from 'https://jsonplaceholder.typicode.com/posts'
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -77,7 +78,7 @@ function Body(){
 
     <tr>
       <td> <input type="checkbox"/></td>
-      <th scope="row"><a className='productName' href={Detail.product_link}>{Detail.name}</a></th>
+      <th scope="row"><Link className='productName' to={Detail.product_link}>{Detail.name}</Link></th>
       <td>{Detail.status}</td>
       <td>{Detail['expiry_date']}</td>
       <td>{Detail.commission}%</td>
@@ -85,7 +86,7 @@ function Body(){
       <td>{Detail.acos}</td>
       <td>{Detail['spend']}</td>
       <td>{Detail.sales}</td>
-      <td><a href="#" onClick={toggle}>edit</a></td>
+      <td><Link to="" onClick={toggle}>edit</Link></td>
     </tr>
     ))}
 

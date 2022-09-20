@@ -3,8 +3,11 @@ import './contact.css';
 import logo from '../img/logo.svg'
 import msgp from '../img/msgp.svg'
 import callp from '../img/callp.svg'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 function Contactus(){
+
     return(
         <>
         <div className="containerC d-flex p-5">
@@ -12,9 +15,9 @@ function Contactus(){
           <nav className='sidebar1 p-auto'>
             <div className="list">
                 <h3>Our Story</h3> 
-                <a href="#" className=" " >
+                <Link to ="/" className="hello" >
                     <img src={logo} alt="profile" className='rounded-circle img logo'/>
-                </a>
+                </Link>
             </div>
             </nav>
 
